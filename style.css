@@ -9,6 +9,7 @@
   }
 html {
     scroll-behavior: smooth;
+    background-color: #ded1eb;
   }
 *{
     font-family: 'Poppins', sans-serif;
@@ -36,18 +37,16 @@ a {
   a:hover {
     color: var(--secondary-color);
   } 
-
-  #navigation {
-    margin-left: 50px;
-  }
-  
+#logo {
+    padding-bottom: 100px;
+}
   nav {
-    background-color: white;
-    height: 100px;
+    background-color: #ded1eb;
+    height: 80px;
     width: 100%;
     position: fixed;
     z-index: 20;
-    box-shadow: 2px 3px 2px #f1f1f1;
+    box-shadow: 2px 3px 2px #e3dce9;
 }
 
 nav ul {
@@ -63,16 +62,6 @@ nav ul li {
 
   .hamburger {
     display: none;
-  }
-  
-  ul {
-    display: flex;
-    align-items: center; 
-  }
-  
-  .nav-item {
-    padding-left: 50px;
-    
   }
   
   .nav-link {
@@ -93,12 +82,13 @@ nav ul li {
   #background-image {
     width: 800px;
     height: 800px;
-    padding: 10px 20px;
+    padding-bottom: 30px;
     
   }
   #btn-1 {
     border-radius: 50px;
     background: #4b1b79;
+    
     padding: 10px;
     color: white;
     border: none;
@@ -111,3 +101,8 @@ nav ul li {
  .brand {
     color: #4b1b79;
  }
+ a#btn-1:hover {
+    background-color: white;
+    color:#4b1b79;
+}
+ 
