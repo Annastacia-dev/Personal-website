@@ -15,10 +15,14 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: var(--transition);
+    transition: var(--transition);padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
     }
 body {
-        font-weight: 100px;
+    font-weight: 100px;
+        
     }
 
 ul li {
@@ -32,32 +36,38 @@ a {
   a:hover {
     color: var(--secondary-color);
   } 
+
+  #navigation {
+    margin-left: 50px;
+  }
   
   nav {
-    background: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 24px;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
     box-shadow: 2px 3px 2px #f1f1f1;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+    border-bottom: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
   .hamburger {
     display: none;
-  }
-  .logo {
-    width: 200px;
-    height: 200px;
   }
   
   ul {
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center; 
   }
   
   .nav-item {
@@ -67,7 +77,37 @@ a {
   
   .nav-link {
     font-weight: var(--bold-font);
-    padding: 0px 20px;
+    padding: 7px 13px;
     word-wrap: normal;
     display: inline-block;
   }
+  .intro-text h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  #body-1 {
+    display: flex;
+    padding-top: 100px;
+    margin-left: 100px;
+  }
+  #background-image {
+    width: 800px;
+    height: 800px;
+    padding: 10px 20px;
+    
+  }
+  #btn-1 {
+    border-radius: 50px;
+    background: #4b1b79;
+    padding: 10px;
+    color: white;
+    border: none;
+    size: 20px;
+    cursor: pointer;
+  }
+  .intro-text {
+    padding-top: 50px;
+  }
+ .brand {
+    color: #4b1b79;
+ }
